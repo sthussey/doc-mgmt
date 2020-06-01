@@ -1,0 +1,3 @@
+# Prod should have 2 replicas
+
+replicaCount: 2
