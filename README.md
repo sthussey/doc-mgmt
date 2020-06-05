@@ -28,6 +28,13 @@ it is a template-free system creating segmented resource definitions. It include
 ability to define schemas and policy validation. It is not Kubernetes specific, and in
 fact not even YAML specific.
 
+## kpt
+
+[Kuberentes Package Toolkit](https://googlecontainertools.github.io/kpt) is a new
+configuration manager for Kubernetes resources. It has similarities to both
+Kustomize in that it allows overrides to a base definition and Cue in that it
+supports schema validations.
+
 ## Mock Project
 
 I'll try to use each of these to build an off-the-shelf Kubernetes deployment

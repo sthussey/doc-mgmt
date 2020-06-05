@@ -1,0 +1,16 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: .
+packageMetadata:
+  tags:
+  - kpt.dev/app=grass
+  shortDescription: grass kpt package
+openAPI:
+  definitions:
+    io.k8s.cli.setters.replicas:
+      type: integer
+      x-k8s-cli:
+        setter:
+          name: replicas
+          value: "1"
